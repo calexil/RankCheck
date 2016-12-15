@@ -1,9 +1,5 @@
-import sys
-import os
-import gobject
-import argparse
+import sys, gobject, argparse, requests
 from lxml import html
-import requests
 
 
 #If you prefer not to enter your password every time
